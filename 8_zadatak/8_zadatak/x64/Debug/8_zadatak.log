@@ -1,0 +1,5 @@
+﻿  Source.c
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_zadatak\8_zadatak\Source.c(46,33): warning C4013: 'random' undefined; assuming extern returning int
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_zadatak\8_zadatak\Source.c(113,9): warning C4033: 'levelOrder' must return a value
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_zadatak\8_zadatak\Source.c(132): warning C4715: 'levelOrder': not all control paths return a value
+  8_zadatak.vcxproj -> C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_zadatak\x64\Debug\8_zadatak.exe
