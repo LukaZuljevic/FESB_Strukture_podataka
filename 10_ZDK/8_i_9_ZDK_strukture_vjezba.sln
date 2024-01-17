@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8_i_9_ZDK_strukture_vjezba", "8_i_9_ZDK_strukture_vjezba\8_i_9_ZDK_strukture_vjezba.vcxproj", "{836739F8-F8D6-4E67-A21E-F3F44B29CD5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{836739F8-F8D6-4E67-A21E-F3F44B29CD5E}.Debug|x64.ActiveCfg = Debug|x64
+		{836739F8-F8D6-4E67-A21E-F3F44B29CD5E}.Debug|x64.Build.0 = Debug|x64
+		{836739F8-F8D6-4E67-A21E-F3F44B29CD5E}.Debug|x86.ActiveCfg = Debug|Win32
+		{836739F8-F8D6-4E67-A21E-F3F44B29CD5E}.Debug|x86.Build.0 = Debug|Win32
+		{836739F8-F8D6-4E67-A21E-F3F44B29CD5E}.Release|x64.ActiveCfg = Release|x64
+		{836739F8-F8D6-4E67-A21E-F3F44B29CD5E}.Release|x64.Build.0 = Release|x64
+		{836739F8-F8D6-4E67-A21E-F3F44B29CD5E}.Release|x86.ActiveCfg = Release|Win32
+		{836739F8-F8D6-4E67-A21E-F3F44B29CD5E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B108198C-3811-4359-9EEE-52C15F19D400}
+	EndGlobalSection
+EndGlobal

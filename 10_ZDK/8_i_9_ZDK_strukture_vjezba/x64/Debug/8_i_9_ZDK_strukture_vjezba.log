@@ -1,0 +1,9 @@
+﻿  Source.c
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZDK_strukture_vjezba\8_i_9_ZDK_strukture_vjezba\Source.c(79,3): warning C4013: 'PrintanjeGradova' undefined; assuming extern returning int
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZDK_strukture_vjezba\8_i_9_ZDK_strukture_vjezba\Source.c(75,12): warning C4047: 'initializing': 'pozicijaD' differs in levels of indirection from 'pozicijaD *'
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZDK_strukture_vjezba\8_i_9_ZDK_strukture_vjezba\Source.c(94,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZDK_strukture_vjezba\8_i_9_ZDK_strukture_vjezba\Source.c(114,34): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZDK_strukture_vjezba\8_i_9_ZDK_strukture_vjezba\Source.c(142,51): warning C4133: 'function': incompatible types - from 'pozicijaG' to 'pozicijaD'
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZDK_strukture_vjezba\8_i_9_ZDK_strukture_vjezba\Source.c(148,55): warning C4028: formal parameter 2 different from declaration
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZDK_strukture_vjezba\8_i_9_ZDK_strukture_vjezba\Source.c(168): warning C4716: 'PrintanjeGradova': must return a value
+  8_i_9_ZDK_strukture_vjezba.vcxproj -> C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZDK_strukture_vjezba\x64\Debug\8_i_9_ZDK_strukture_vjezba.exe

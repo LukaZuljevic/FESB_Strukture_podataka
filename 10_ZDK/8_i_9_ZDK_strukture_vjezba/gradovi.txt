@@ -1,0 +1,11 @@
+Split 10
+Toronto 50
+LosAngeles 40
+Chicago 40
+Sarajevo 60
+Zbgreb 10
+Zagreb 10
+Nis 30
+Brusseles 20
+Anguisa 20
+Crumibz 20

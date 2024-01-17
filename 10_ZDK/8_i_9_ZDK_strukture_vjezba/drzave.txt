@@ -1,0 +1,6 @@
+Hrvatska 10
+Belgija 20
+Srbija 30
+Amerika 40
+Kanada 50
+Bosna 60
