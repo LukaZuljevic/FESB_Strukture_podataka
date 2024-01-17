@@ -1,0 +1,7 @@
+﻿  Source.c
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\ZDK10_vjezba_za_ispit\ZDK10_vjezba_za_ispit\Source.c(83,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\ZDK10_vjezba_za_ispit\ZDK10_vjezba_za_ispit\Source.c(98,22): warning C4133: 'function': incompatible types - from 'grad *' to 'pozicijaD'
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\ZDK10_vjezba_za_ispit\ZDK10_vjezba_za_ispit\Source.c(110,35): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\ZDK10_vjezba_za_ispit\ZDK10_vjezba_za_ispit\Source.c(169,3): warning C4013: 'printanjeStablaGradova' undefined; assuming extern returning int
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\ZDK10_vjezba_za_ispit\ZDK10_vjezba_za_ispit\Source.c(173): warning C4716: 'printanjeDrzavaUListi': must return a value
+  ZDK10_vjezba_za_ispit.vcxproj -> C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\ZDK10_vjezba_za_ispit\x64\Debug\ZDK10_vjezba_za_ispit.exe

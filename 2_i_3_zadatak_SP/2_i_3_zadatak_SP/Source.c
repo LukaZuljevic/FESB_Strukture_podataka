@@ -27,6 +27,7 @@ int UnosDatoteka(pozicija element);
 int menu(pozicija head, pozicija Novihead);
 int CitanjeDatoteke(pozicija Novihead);
 pozicija stvori();
+int BrisiMin(pozicija head);
 
 
 int main() {
@@ -289,3 +290,22 @@ int CitanjeDatoteke(pozicija Novihead) {
 
 	return 0;
 }
+int BrisiMin(pozicija head) {
+	int broj = head->next->broj;
+	pozicija current = head->next;
+	pozicija temp;
+	while (current->next != NULL) {
+		if (current->broj < broj) {
+			broj = current->broj;
+		}
+		current = current->next;
+	}
+
+	temp = current->next;
+	current->next = temp->next;
+	free(temp);
+
+
+	return 0;
+}
+

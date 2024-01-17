@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\Vjezba(Cirkularne_liste)\Vjezba(Cirkularne_liste)\Source.c(64,19): warning C4020: 'Brisanje': too many actual parameters
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\Vjezba(Cirkularne_liste)\Vjezba(Cirkularne_liste)\Source.c(191,37): warning C4029: declared formal parameter list different from definition
+  Vjezba(Cirkularne_liste).vcxproj -> C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\Vjezba(Cirkularne_liste)\x64\Debug\Vjezba(Cirkularne_liste).exe
