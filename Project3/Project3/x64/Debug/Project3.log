@@ -1,3 +1,0 @@
-﻿  Source.c
-C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\Project3\Project3\Source.c(59,9): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
-  Project3.vcxproj -> C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\Project3\x64\Debug\Project3.exe
