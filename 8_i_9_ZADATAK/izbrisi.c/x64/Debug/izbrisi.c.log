@@ -1,8 +1,8 @@
 ﻿  Source.c
-C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\izbrisi.c\izbrisi.c\Source.c(28,10): warning C4013: 'random' undefined; assuming extern returning int
-C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\izbrisi.c\izbrisi.c\Source.c(73,6): warning C4101: 'broj': unreferenced local variable
-C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\izbrisi.c\izbrisi.c\Source.c(92,3): warning C4047: 'return': 'int' differs in levels of indirection from 'pozicija'
-C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\izbrisi.c\izbrisi.c\Source.c(95,14): warning C4047: '=': 'pozicija' differs in levels of indirection from 'int'
-C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\izbrisi.c\izbrisi.c\Source.c(98,15): warning C4047: '=': 'pozicija' differs in levels of indirection from 'int'
-C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\izbrisi.c\izbrisi.c\Source.c(102): warning C4715: 'find': not all control paths return a value
-  izbrisi.c.vcxproj -> C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\izbrisi.c\x64\Debug\izbrisi.c.exe
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZADATAK\izbrisi.c\Source.c(28,10): warning C4013: 'random' undefined; assuming extern returning int
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZADATAK\izbrisi.c\Source.c(73,6): warning C4101: 'broj': unreferenced local variable
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZADATAK\izbrisi.c\Source.c(92,3): warning C4047: 'return': 'int' differs in levels of indirection from 'pozicija'
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZADATAK\izbrisi.c\Source.c(95,14): warning C4047: '=': 'pozicija' differs in levels of indirection from 'int'
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZADATAK\izbrisi.c\Source.c(98,15): warning C4047: '=': 'pozicija' differs in levels of indirection from 'int'
+C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZADATAK\izbrisi.c\Source.c(102): warning C4715: 'find': not all control paths return a value
+  izbrisi.c.vcxproj -> C:\Users\Luka\Desktop\Luka Žuljevic\FESB2\8_i_9_ZADATAK\x64\Debug\izbrisi.c.exe

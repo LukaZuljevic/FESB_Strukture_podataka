@@ -14,9 +14,13 @@ typedef struct _cvor {
 
 int find(int broj, pozicija root);
 int inorder(FILE* doc, pozicija root);
+int postorder(FILE* doc, pozicija root);
+int preorder(pozicija root);
+int levelOrder(pozicija root);
 pozicija SNoviBroj(int broj);
 pozicija Stablo(int broj, pozicija root);
 int replace(pozicija root);
+pozicija Izbrisi(pozicija root, int value);
 
 int main() {
 	FILE* doc = fopen("stablo.txt", "w+");
@@ -86,6 +90,32 @@ int inorder(FILE* doc, pozicija root) {
 	
 	return 0;
 }
+int postorder(FILE* doc, pozicija root) {
+
+	int broj;
+	if (!doc) {
+		printf("eeorrrr");
+		return -1;
+	}
+	if (root) {
+		postorder(doc, root->left);
+		postorder(doc, root->right);
+		printf("%d  ", root->broj);
+		fprintf(doc, " %d", root->broj);
+	}
+
+
+
+	return 0;
+}
+int preorder(pozicija root) {
+	if (root) {
+		printf("%d ", root->broj);
+		preorder(root->left);
+		preorder(root->right);
+	}
+	return 0;
+}
 int find(int broj, pozicija root) {
 
 	if (root==NULL||root->broj == broj) {
@@ -119,5 +149,61 @@ int replace(pozicija root) {
 int random() {
 	return (rand() % (90 - 10 + 1)) + 10;
 }
+int levelOrder(pozicija root) {
+	if (root == NULL)
+		return;
 
+	pozicija queue[100] = { 0 };
+	int front = 0, rear = 0;
 
+	queue[rear++] = root;
+
+	while (front < rear) {
+		pozicija current = queue[front++];
+
+		printf("%d ", current->broj);
+
+		if (current->left != NULL)
+			queue[rear++] = current->left;
+
+		if (current->right != NULL)
+			queue[rear++] = current->right;
+	}
+	return 0;
+}
+pozicija Izbrisi(pozicija root, int value) {
+	if (root == NULL)
+		return root;
+
+	
+	if (value < root->broj)
+		root->left = Izbrisi(root->left, value);
+	else if (value > root->broj)
+		root->right = Izbrisi(root->right, value);
+	else {
+		
+		if (root->left == NULL) {
+			pozicija temp = root->right;
+			free(root);
+			return temp;
+		}
+		else if (root->right == NULL) {
+			pozicija temp = root->left;
+			free(root);
+			return temp;
+		}
+
+	
+		pozicija temp = root->right;
+		while (temp->left != NULL)
+			temp = temp->left;
+
+	
+		root->broj = temp->broj;
+
+		
+		root->right = Izbrisi(root->right, temp->broj);
+	}
+
+	return root;
+}
